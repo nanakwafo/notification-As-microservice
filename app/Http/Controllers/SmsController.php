@@ -2,29 +2,28 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\SmsRepository;
 use Illuminate\Http\Request;
 use Nexmo\Client;
 use Nexmo\Client\Credentials\Basic;
 
 class SmsController extends Controller
 {
-    //
-    public function send(){
-        $basic  = new Basic(env('NEXMO_KEY'),env('NEXMO_SECRET'));
-        $client = new Client($basic);
-
-        $message = $client->message()->send([
-            'to' => '447950199283',
-            'from' => 'test',
-            'text' => 'testing me'
-        ]);
-
-        return $message;
+    private $smsRepository;
+    /**
+     * SmsController constructor.
+     */
+    public function __construct (SmsRepository $smsRepository)
+    {
+        $this->smsRepository= $smsRepository;
+        
     }
+ 
     public function  sendSingleSMS(){
-
+        $this->smsRepository->singleSms();
+      
     }
     public function sendBulkSMS(){
-
+        $this->smsRepository->bulkSms();
     }
 }
