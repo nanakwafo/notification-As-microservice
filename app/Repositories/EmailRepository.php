@@ -20,7 +20,7 @@ class EmailRepository implements EmailRepositoryInterface
 
     public function welcomeemail ($request)
     {
-        Mail::to($request->email)->send(new WelcomeMail());
+        Mail::to('nanamensah1140@gmail.com')->send(new WelcomeMail());
         return new WelcomeMail();
 
     }

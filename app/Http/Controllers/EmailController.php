@@ -4,6 +4,11 @@ namespace App\Http\Controllers;
 
 
 
+use App\Http\Requests\clientRequest;
+use App\Http\Requests\confirmPassword;
+use App\Http\Requests\ForgetPassword;
+use App\Http\Requests\requestCompletion;
+use App\Http\Requests\WelcomeEmail;
 use App\Repositories\EmailRepositoryInterface;
 use Illuminate\Http\Request;
 
@@ -21,32 +26,32 @@ class EmailController extends Controller
 
     }
 
-    public function  SendWelcomeEmail(Request $request){
+    public function  SendWelcomeEmail(WelcomeEmail $request){
         //validate
         $this->emailRepository->welcomeemail($request);
         
        
 
     }
-    public function sendforgotpassword(Request $request){
+    public function sendforgotpassword(ForgetPassword $request){
 
         //validate
         $this->emailRepository->forgotpassword($request);
     
 
     }
-    public function confirmpassword(Request $request){
+    public function confirmpassword(confirmPassword $request){
         //validate
         $this->emailRepository->confirmpassword($request);
        
     }
 
-    public function requestcompletion(Request $request){
+    public function requestcompletion(requestCompletion $request){
         //validate
         $this->emailRepository->requestcompletion($request);
       
     }
-    public function clientRequest(Request $request){
+    public function clientRequest(clientRequest $request){
         //validate
         $this->emailRepository->clientRequestEmail($request);
     }
