@@ -2,38 +2,52 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\ClientRequest;
-use App\Mail\ConfirmEmail;
-use App\Mail\ForgotPassword;
-use App\Mail\RequestCompletion;
-use App\Mail\WelcomeMail;
+
+
+use App\Repositories\EmailRepositoryInterface;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
+
 
 class EmailController extends Controller
 {
     //
-    public function  welcomeemail(Request $request){
-        Mail::to($request->email)->send(new WelcomeMail());
-        return new WelcomeMail();
+    private $emailRepository;
+    /**
+     * EmailController constructor.
+     */
+    public function __construct (EmailRepositoryInterface $emailRepository)
+    {
+        $this->emailRepository = $emailRepository;
 
     }
-    public function forgotpassword(Request $request){
-        Mail::to($request->email)->send(new ForgotPassword());
-        return new ForgotPassword();
+
+    public function  SendWelcomeEmail(Request $request){
+        //validate
+        $this->emailRepository->welcomeemail($request);
+        
+       
+
+    }
+    public function sendforgotpassword(Request $request){
+
+        //validate
+        $this->emailRepository->forgotpassword($request);
+    
 
     }
     public function confirmpassword(Request $request){
-        Mail::to($request->email)->send(new ConfirmEmail());
-        return new ConfirmEmail();
+        //validate
+        $this->emailRepository->confirmpassword($request);
+       
     }
 
     public function requestcompletion(Request $request){
-        Mail::to($request->email)->send(new RequestCompletion());
-        return new RequestCompletion();
+        //validate
+        $this->emailRepository->requestcompletion($request);
+      
     }
     public function clientRequest(Request $request){
-        Mail::to($request->email)->send(new ClientRequest());
-        return new ClientRequest();
+        //validate
+        $this->emailRepository->clientRequestEmail($request);
     }
 }

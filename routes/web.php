@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('email','EmailController@welcomeemail');
+Route::get('/','EmailController@welcomeemail');
 Route::get('sms','SmsController@send');
 //
 //Route::get('email/forgotpassword','EmailController@forgotpassword');

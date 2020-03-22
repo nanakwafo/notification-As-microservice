@@ -21,4 +21,10 @@ class SmsController extends Controller
 
         return $message;
     }
+    public function  sendSingleSMS(){
+
+    }
+    public function sendBulkSMS(){
+
+    }
 }
