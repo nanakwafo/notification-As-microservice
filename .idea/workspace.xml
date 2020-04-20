@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4de9836-c1f8-4138-a61a-ae020f6dd2a6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docker-compose-deployment/mysql/ibtmp1" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose-deployment/mysql/ib_logfile0" afterPath="$PROJECT_DIR$/docker-compose-deployment/mysql/ib_logfile0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose-deployment/mysql/ibdata1" afterPath="$PROJECT_DIR$/docker-compose-deployment/mysql/ibdata1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/notificationmicroservice.iml" afterPath="$PROJECT_DIR$/.idea/notificationmicroservice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose-deployment/mysql/ib_buffer_pool" afterPath="$PROJECT_DIR$/docker-compose-deployment/mysql/ib_buffer_pool" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml" />
     </list>
     <ignored path="notificationmicroservice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,8 +100,8 @@
       <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+            <state relative-caret-position="403">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -185,7 +179,6 @@
         <option value="$PROJECT_DIR$/app/Repositories/VerificcationCodeRepository.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/EmailController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml" />
         <option value="$PROJECT_DIR$/docker-compose-deployment/nginx/default.conf" />
         <option value="$PROJECT_DIR$/src/routes/api.php" />
         <option value="$PROJECT_DIR$/src/routes/web.php" />
@@ -194,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/app/Mail/VerificatioMail.php" />
         <option value="$PROJECT_DIR$/src/resources/views/emails/verification.blade.php" />
         <option value="$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php" />
+        <option value="$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -298,7 +292,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../authmicroservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="SearchEverywhereHistoryKey" value="terminal&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/notificationmicroservice/.env" />
@@ -377,15 +371,15 @@
       <workItem from="1584967401635" duration="196000" />
       <workItem from="1587073136133" duration="1745000" />
       <workItem from="1587377303811" duration="5850000" />
-      <workItem from="1587384599723" duration="678000" />
+      <workItem from="1587384599723" duration="688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30577000" />
+    <option name="totallyTimeSpent" value="30587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -796,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+        <state relative-caret-position="403">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding />
         </state>
       </provider>
