@@ -30,7 +30,7 @@ services:
     volumes:
       - ./mysql:/var/lib/mysql
     environment:
-      MYSQL_DATABASE: authdb
+      MYSQL_DATABASE: notifydb
       MYSQL_USER: kwafodev
       MYSQL_PASSWORD: secret
       MYSQL_ROOT_PASSWORD: secret
