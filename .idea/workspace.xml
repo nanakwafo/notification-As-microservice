@@ -2,128 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4de9836-c1f8-4138-a61a-ae020f6dd2a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose-deployment/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose-deployment/nginx/default.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/storage/oauth-private.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/storage/oauth-public.key" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/EmailController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/verificationcodeController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Repositories/VerificcationCodeRepository.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/src/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/src/.env.example" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/src/.gitattributes" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/src/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.rnd" afterPath="$PROJECT_DIR$/src/.rnd" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.styleci.yml" afterPath="$PROJECT_DIR$/src/.styleci.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/src/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/src/app/Console/Kernel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Auth/ConfirmPasswordController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Auth/ForgotPasswordController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Auth/LoginController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Auth/RegisterController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Auth/ResetPasswordController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Auth/VerificationController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthenticationController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/AuthenticationController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Controller.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/SmsController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/SmsController.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/src/app/Http/Kernel.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/src/app/Http/Middleware/Authenticate.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterPath="$PROJECT_DIR$/src/app/Http/Middleware/CheckForMaintenanceMode.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterPath="$PROJECT_DIR$/src/app/Http/Middleware/EncryptCookies.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/src/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterPath="$PROJECT_DIR$/src/app/Http/Middleware/TrimStrings.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterPath="$PROJECT_DIR$/src/app/Http/Middleware/TrustProxies.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/src/app/Http/Middleware/VerifyCsrfToken.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Requests/ForgetPassword.php" afterPath="$PROJECT_DIR$/src/app/Http/Requests/ForgetPassword.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Requests/LoginRequest.php" afterPath="$PROJECT_DIR$/src/app/Http/Requests/LoginRequest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Requests/RegistrationRequest.php" afterPath="$PROJECT_DIR$/src/app/Http/Requests/RegistrationRequest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Requests/WelcomeEmail.php" afterPath="$PROJECT_DIR$/src/app/Http/Requests/WelcomeEmail.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Requests/clientRequest.php" afterPath="$PROJECT_DIR$/src/app/Http/Requests/clientRequest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Requests/confirmPassword.php" afterPath="$PROJECT_DIR$/src/app/Http/Requests/confirmPassword.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Requests/requestCompletion.php" afterPath="$PROJECT_DIR$/src/app/Http/Requests/requestCompletion.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Mail/ClientRequest.php" afterPath="$PROJECT_DIR$/src/app/Mail/ClientRequest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Mail/ConfirmEmail.php" afterPath="$PROJECT_DIR$/src/app/Mail/ConfirmEmail.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Mail/ForgotPassword.php" afterPath="$PROJECT_DIR$/src/app/Mail/ForgotPassword.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Mail/RequestCompletion.php" afterPath="$PROJECT_DIR$/src/app/Mail/RequestCompletion.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Mail/WelcomeMail.php" afterPath="$PROJECT_DIR$/src/app/Mail/WelcomeMail.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Notifications/WelcomeNotification.php" afterPath="$PROJECT_DIR$/src/app/Notifications/WelcomeNotification.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/src/app/Providers/AppServiceProvider.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/src/app/Providers/AuthServiceProvider.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterPath="$PROJECT_DIR$/src/app/Providers/BroadcastServiceProvider.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Providers/RepositoriesServiceProvider.php" afterPath="$PROJECT_DIR$/src/app/Providers/RepositoriesServiceProvider.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/src/app/Providers/RouteServiceProvider.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Repositories/EmailRepository.php" afterPath="$PROJECT_DIR$/src/app/Repositories/EmailRepository.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Repositories/EmailRepositoryInterface.php" afterPath="$PROJECT_DIR$/src/app/Repositories/EmailRepositoryInterface.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Repositories/SmsRepository.php" afterPath="$PROJECT_DIR$/src/app/Repositories/SmsRepository.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/src/app/User.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/src/artisan" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/src/bootstrap/app.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterPath="$PROJECT_DIR$/src/bootstrap/cache/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/src/composer.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/src/composer.lock" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/src/config/app.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/src/config/auth.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/broadcasting.php" afterPath="$PROJECT_DIR$/src/config/broadcasting.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/cache.php" afterPath="$PROJECT_DIR$/src/config/cache.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/src/config/database.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/src/config/filesystems.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/hashing.php" afterPath="$PROJECT_DIR$/src/config/hashing.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/logging.php" afterPath="$PROJECT_DIR$/src/config/logging.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/src/config/mail.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/queue.php" afterPath="$PROJECT_DIR$/src/config/queue.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/src/config/services.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/session.php" afterPath="$PROJECT_DIR$/src/config/session.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/view.php" afterPath="$PROJECT_DIR$/src/config/view.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="$PROJECT_DIR$/src/database/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" afterPath="$PROJECT_DIR$/src/database/factories/UserFactory.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/src/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/src/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterPath="$PROJECT_DIR$/src/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/src/database/seeds/DatabaseSeeder.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/src/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/src/phpunit.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/src/public/.htaccess" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/src/public/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/src/public/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/src/public/robots.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/web.config" afterPath="$PROJECT_DIR$/src/public/web.config" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/js/app.js" afterPath="$PROJECT_DIR$/src/resources/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" afterPath="$PROJECT_DIR$/src/resources/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" afterPath="$PROJECT_DIR$/src/resources/lang/en/auth.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterPath="$PROJECT_DIR$/src/resources/lang/en/pagination.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/src/resources/lang/en/passwords.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="$PROJECT_DIR$/src/resources/lang/en/validation.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/sass/app.scss" afterPath="$PROJECT_DIR$/src/resources/sass/app.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/emails/ClientRequest.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/emails/ClientRequest.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/emails/ComfirmedEmail.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/emails/ComfirmedEmail.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/emails/ForgotPassword.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/emails/ForgotPassword.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/emails/RquestCompletion.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/emails/RquestCompletion.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/emails/welcome.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/emails/welcome.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/src/resources/views/welcome.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/src/routes/api.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/channels.php" afterPath="$PROJECT_DIR$/src/routes/channels.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/console.php" afterPath="$PROJECT_DIR$/src/routes/console.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/src/routes/web.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/src/server.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="$PROJECT_DIR$/src/storage/app/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" afterPath="$PROJECT_DIR$/src/storage/app/public/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/src/storage/framework/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/src/storage/framework/cache/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterPath="$PROJECT_DIR$/src/storage/framework/cache/data/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/src/storage/framework/sessions/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterPath="$PROJECT_DIR$/src/storage/framework/testing/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/src/storage/framework/views/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/src/storage/logs/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/CreatesApplication.php" afterPath="$PROJECT_DIR$/src/tests/CreatesApplication.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterPath="$PROJECT_DIR$/src/tests/Feature/ExampleTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/src/tests/TestCase.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterPath="$PROJECT_DIR$/src/tests/Unit/ExampleTest.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/webpack.mix.js" afterPath="$PROJECT_DIR$/src/webpack.mix.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docker-compose-deployment/mysql/ibtmp1" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose-deployment/mysql/ib_logfile0" afterPath="$PROJECT_DIR$/docker-compose-deployment/mysql/ib_logfile0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose-deployment/mysql/ibdata1" afterPath="$PROJECT_DIR$/docker-compose-deployment/mysql/ibdata1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/notificationmicroservice.iml" afterPath="$PROJECT_DIR$/.idea/notificationmicroservice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose-deployment/mysql/ib_buffer_pool" afterPath="$PROJECT_DIR$/docker-compose-deployment/mysql/ib_buffer_pool" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php" />
     </list>
     <ignored path="notificationmicroservice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,11 +30,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AuthenticationController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/AuthenticationController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding>
+                <element signature="e#136#451#0#PHP" expanded="true" />
+                <element signature="e#457#804#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="EmailRepository.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Repositories/EmailRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state relative-caret-position="182">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="e#122#149#0#PHP" expanded="true" />
                 <element signature="e#397#554#0#PHP" expanded="true" />
@@ -173,37 +71,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/api.php">
+      <file leaf-file-name="SmsRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Repositories/SmsRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="169">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
-                <element signature="e#465#525#1#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientRequest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Mail/ClientRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#28#57#0#PHP" expanded="true" />
-                <element signature="e#334#386#0#PHP" expanded="true" />
-                <element signature="e#462#553#0#PHP" expanded="true" />
+                <element signature="e#241#411#0#PHP" expanded="true" />
+                <element signature="e#417#642#0#PHP" expanded="true" />
+                <element signature="e#652#693#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,8 +88,8 @@
       <file leaf-file-name="EmailController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
+            <state relative-caret-position="286">
+              <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
               <folding>
                 <element signature="e#447#582#0#PHP" expanded="true" />
                 <element signature="e#588#734#0#PHP" expanded="true" />
@@ -221,8 +97,28 @@
                 <element signature="e#899#1049#0#PHP" expanded="true" />
                 <element signature="e#1055#1211#0#PHP" expanded="true" />
                 <element signature="e#1217#1365#0#PHP" expanded="true" />
-                <element signature="e#1371#1553#0#PHP" expanded="true" />
+                <element signature="e#1371#1521#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose-deployment/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -230,7 +126,7 @@
       <file leaf-file-name="VerificatioMail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Mail/VerificatioMail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
+            <state relative-caret-position="260">
               <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
               <folding>
                 <element signature="e#353#439#0#PHP" expanded="true" />
@@ -240,7 +136,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="verification.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="verification.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/views/emails/verification.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="39">
@@ -256,18 +152,6 @@
             <state relative-caret-position="117">
               <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestCompletion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/Mail/RequestCompletion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#466#560#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -305,11 +189,11 @@
         <option value="$PROJECT_DIR$/docker-compose-deployment/nginx/default.conf" />
         <option value="$PROJECT_DIR$/src/routes/api.php" />
         <option value="$PROJECT_DIR$/src/routes/web.php" />
-        <option value="$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php" />
         <option value="$PROJECT_DIR$/src/app/Repositories/EmailRepositoryInterface.php" />
         <option value="$PROJECT_DIR$/src/app/Repositories/EmailRepository.php" />
         <option value="$PROJECT_DIR$/src/app/Mail/VerificatioMail.php" />
         <option value="$PROJECT_DIR$/src/resources/views/emails/verification.blade.php" />
+        <option value="$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php" />
       </list>
     </option>
   </component>
@@ -357,8 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -374,230 +256,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emails" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repositories" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mail" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Middleware" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="notificationmicroservice" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -635,6 +293,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -716,12 +376,13 @@
       <workItem from="1584966333200" duration="90000" />
       <workItem from="1584967401635" duration="196000" />
       <workItem from="1587073136133" duration="1745000" />
-      <workItem from="1587377303811" duration="4393000" />
+      <workItem from="1587377303811" duration="5850000" />
+      <workItem from="1587384599723" duration="678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28442000" />
+    <option name="totallyTimeSpent" value="30577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1066" extended-state="6" />
@@ -912,38 +573,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/verificationcodeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/AuthenticationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#136#451#0#PHP" expanded="true" />
-            <element signature="e#457#804#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/VerificationCodeRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/verificationcodeController.php" />
+    <entry file="file://$PROJECT_DIR$/app/Repositories/VerificationCodeRepository.php" />
     <entry file="file://$PROJECT_DIR$/src/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,15 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-deployment/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,15 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,9 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#329#466#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-312">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,22 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding>
-            <element signature="e#40#75#0#PHP" expanded="true" />
-            <element signature="e#415#504#0#PHP" expanded="true" />
-            <element signature="e#509#586#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Repositories/SmsRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="e#241#411#0#PHP" expanded="true" />
-            <element signature="e#652#693#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,9 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#465#525#1#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,11 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#28#57#0#PHP" expanded="true" />
-            <element signature="e#334#386#0#PHP" expanded="true" />
-            <element signature="e#462#553#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,20 +684,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#466#560#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Mail/VerificationMail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Mail/VerificationMail.php" />
     <entry file="file://$PROJECT_DIR$/src/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -1126,53 +696,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Repositories/EmailRepositoryInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
-          <folding>
-            <element signature="e#447#582#0#PHP" expanded="true" />
-            <element signature="e#588#734#0#PHP" expanded="true" />
-            <element signature="e#740#893#0#PHP" expanded="true" />
-            <element signature="e#899#1049#0#PHP" expanded="true" />
-            <element signature="e#1055#1211#0#PHP" expanded="true" />
-            <element signature="e#1217#1365#0#PHP" expanded="true" />
-            <element signature="e#1371#1553#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Mail/VerificatioMail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
+        <state relative-caret-position="260">
           <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
           <folding>
             <element signature="e#353#439#0#PHP" expanded="true" />
             <element signature="e#515#653#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Repositories/EmailRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="e#122#149#0#PHP" expanded="true" />
-            <element signature="e#397#554#0#PHP" expanded="true" />
-            <element signature="e#559#706#0#PHP" expanded="true" />
-            <element signature="e#711#855#0#PHP" expanded="true" />
-            <element signature="e#860#1016#0#PHP" expanded="true" />
-            <element signature="e#1021#1170#0#PHP" expanded="true" />
-            <element signature="e#1175#1331#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1189,6 +719,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Repositories/EmailRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Repositories/EmailRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#122#149#0#PHP" expanded="true" />
+            <element signature="e#397#554#0#PHP" expanded="true" />
+            <element signature="e#559#706#0#PHP" expanded="true" />
+            <element signature="e#711#855#0#PHP" expanded="true" />
+            <element signature="e#860#1016#0#PHP" expanded="true" />
+            <element signature="e#1021#1170#0#PHP" expanded="true" />
+            <element signature="e#1175#1331#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Repositories/SmsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#241#411#0#PHP" expanded="true" />
+            <element signature="e#417#642#0#PHP" expanded="true" />
+            <element signature="e#652#693#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/AuthenticationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#136#451#0#PHP" expanded="true" />
+            <element signature="e#457#804#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Http/Controllers/EmailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
+          <folding>
+            <element signature="e#447#582#0#PHP" expanded="true" />
+            <element signature="e#588#734#0#PHP" expanded="true" />
+            <element signature="e#740#893#0#PHP" expanded="true" />
+            <element signature="e#899#1049#0#PHP" expanded="true" />
+            <element signature="e#1055#1211#0#PHP" expanded="true" />
+            <element signature="e#1217#1365#0#PHP" expanded="true" />
+            <element signature="e#1371#1521#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose-deployment/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose-deployment/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding />
         </state>
       </provider>

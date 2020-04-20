@@ -65,7 +65,7 @@ class EmailController extends Controller
 
     public function sendVerificationMail ($email, $code)
     {
-//        return $email . $code;
+
 //        //validate
        $this->emailRepository->verificationMail ($email,$code);
     }
